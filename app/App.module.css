@@ -1,0 +1,58 @@
+.App {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button{
+    background: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  .label {
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .input{
+    height: 60px;
+  }
+  /* Allows the Email &Input to display in column */
+  .input + .label {
+    font-weight: bold;
+    display: inline-flex;
+    margin-right: 20px;
+  }
+  
+  .input[type='text'],
+  .input[type='email'],
+  .input[type='password'],
+  .textarea,
+  .select {
+    display: block;
+    width: 500px;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    border-radius: 15px;
+    border-radius: solid black 1px;
+    color: #0a0909;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #040404;
+    margin-bottom: 5px;
+  }
+  .checkbox{
+    width: 20px;
+    height: 20px;
+  }
+  .formControl {
+    margin-bottom: 20px;
+  }
+  .radio{
+    width: 20px;
+    height: 20px;
+    /* margin-left: 25px; */
+  }
+  .error {
+    color: red;
+  }
